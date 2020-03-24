@@ -1,0 +1,30 @@
+{
+  "name": "googleimagesdownloader",
+  "version": "1.0.0",
+  "description": "An automatic images downloader",
+  "main": "dist/main.ts",
+  "scripts": {
+    "start": "npm run build && npm run serve",
+    "build": "tsc",
+    "serve": "node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s4ng3r/GoogleImagesDownloader.git"
+  },
+  "keywords": [
+    "Puppeteer",
+    "Google",
+    "TypeScript",
+    "NodeJS"
+  ],
+  "author": "s4ng3r",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s4ng3r/GoogleImagesDownloader/issues"
+  },
+  "homepage": "https://github.com/s4ng3r/GoogleImagesDownloader#readme",
+  "devDependencies": {
+    "@types/node": "^13.9.3"
+  }
+}
